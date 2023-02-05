@@ -1,14 +1,7 @@
-# Welcome to your CDK TypeScript project
+# Lightweight Detection Lab
 
-This is a blank project for CDK development with TypeScript.
+Like DetectionLab, but lighter. Deploy a Windows server in AWS, run some commands, pull down the logs to be imported into Splunk and analysed.
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+# Usage
+./go.sh
 
-## Useful commands
-
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `cdk deploy`      deploy this stack to your default AWS account/region
-* `cdk diff`        compare deployed stack with current state
-* `cdk synth`       emits the synthesized CloudFormation template

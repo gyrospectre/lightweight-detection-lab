@@ -1,0 +1,505 @@
+
+
+   ProviderName: Microsoft-Windows-Sysmon
+
+TimeCreated                     Id LevelDisplayName Message                                                            
+-----------                     -- ---------------- -------                                                            
+2/5/2023 6:16:40 AM             11 Information      File created:                                                      
+                                                    RuleName: -                                                        
+                                                    UtcTime: 2023-02-05 06:16:40.094                                   
+                                                    ProcessGuid: {70d418e8-49c7-63df-9100-000000002a02}                
+                                                    ProcessId: 3664                                                    
+                                                    Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe   
+                                                    TargetFilename: C:\Users\Administrator\AppData\Local\Temp\__PSScrip
+                                                    tPolicyTest_wvwt3uyd.vas.ps1                                       
+                                                    CreationUtcTime: 2023-02-05 06:16:40.094                           
+                                                    User: EC2AMAZ-EHG2C8M\Administrator                                
+2/5/2023 6:16:39 AM              1 Information      Process Create:                                                    
+                                                    RuleName: -                                                        
+                                                    UtcTime: 2023-02-05 06:16:39.954                                   
+                                                    ProcessGuid: {70d418e8-49c7-63df-9100-000000002a02}                
+                                                    ProcessId: 3664                                                    
+                                                    Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe   
+                                                    FileVersion: 10.0.17763.1 (WinBuild.160101.0800)                   
+                                                    Description: Windows PowerShell                                    
+                                                    Product: Microsoft® Windows® Operating System                      
+                                                    Company: Microsoft Corporation                                     
+                                                    OriginalFileName: PowerShell.EXE                                   
+                                                    CommandLine: powershell.exe  -File ".\scripts\Collect.ps1"         
+                                                    CurrentDirectory: C:\deploy\                                       
+                                                    User: EC2AMAZ-EHG2C8M\Administrator                                
+                                                    LogonGuid: {70d418e8-4991-63df-d2c8-200000000000}                  
+                                                    LogonId: 0x20C8D2                                                  
+                                                    TerminalSessionId: 0                                               
+                                                    IntegrityLevel: High                                               
+                                                    Hashes: MD5=7353F60B1739074EB17C5F4DDDEFE239,SHA256=DE96A6E69944335
+                                                    375DC1AC238336066889D9FFC7D73628EF4FE1B1B160AB32C,IMPHASH=741776AAC
+                                                    CFC5B71FF59832DCDCACE0F                                            
+                                                    ParentProcessGuid: {70d418e8-49c7-63df-9000-000000002a02}          
+                                                    ParentProcessId: 3652                                              
+                                                    ParentImage: C:\Windows\System32\cmd.exe                           
+                                                    ParentCommandLine: C:\Windows\system32\cmd.exe /c "powershell.exe  
+                                                    -File ".\scripts\Collect.ps1""                                     
+                                                    ParentUser: EC2AMAZ-EHG2C8M\Administrator                          
+2/5/2023 6:16:39 AM              1 Information      Process Create:                                                    
+                                                    RuleName: -                                                        
+                                                    UtcTime: 2023-02-05 06:16:39.939                                   
+                                                    ProcessGuid: {70d418e8-49c7-63df-9000-000000002a02}                
+                                                    ProcessId: 3652                                                    
+                                                    Image: C:\Windows\System32\cmd.exe                                 
+                                                    FileVersion: 10.0.17763.1697 (WinBuild.160101.0800)                
+                                                    Description: Windows Command Processor                             
+                                                    Product: Microsoft® Windows® Operating System                      
+                                                    Company: Microsoft Corporation                                     
+                                                    OriginalFileName: Cmd.Exe                                          
+                                                    CommandLine: C:\Windows\system32\cmd.exe /c "powershell.exe -File  
+                                                    ".\scripts\Collect.ps1""                                           
+                                                    CurrentDirectory: C:\deploy\                                       
+                                                    User: EC2AMAZ-EHG2C8M\Administrator                                
+                                                    LogonGuid: {70d418e8-4991-63df-d2c8-200000000000}                  
+                                                    LogonId: 0x20C8D2                                                  
+                                                    TerminalSessionId: 0                                               
+                                                    IntegrityLevel: High                                               
+                                                    Hashes: MD5=911D039E71583A07320B32BDE22F8E22,SHA256=BC866CFCDDA37E2
+                                                    4DC2634DC282C7A0E6F55209DA17A8FA105B07414C0E7C527,IMPHASH=272245E29
+                                                    88E1E430500B852C4FB5E18                                            
+                                                    ParentProcessGuid: {70d418e8-4992-63df-6b00-000000002a02}          
+                                                    ParentProcessId: 2452                                              
+                                                    ParentImage: C:\Program Files\Amazon\cfn-bootstrap\cfn-init.exe    
+                                                    ParentCommandLine: "C:\Program                                     
+                                                    Files\Amazon\cfn-bootstrap\cfn-init.exe" -v --region us-east-1     
+                                                    --stack TlogGenStack --resource                                    
+                                                    tloggenserverinstanceBA59C69Bcd29b25a6c73bdf8 -c default           
+                                                    ParentUser: EC2AMAZ-EHG2C8M\Administrator                          
+2/5/2023 6:16:39 AM              1 Information      Process Create:                                                    
+                                                    RuleName: -                                                        
+                                                    UtcTime: 2023-02-05 06:16:39.916                                   
+                                                    ProcessGuid: {70d418e8-49c7-63df-8f00-000000002a02}                
+                                                    ProcessId: 3632                                                    
+                                                    Image: C:\Windows\System32\cmd.exe                                 
+                                                    FileVersion: 10.0.17763.1697 (WinBuild.160101.0800)                
+                                                    Description: Windows Command Processor                             
+                                                    Product: Microsoft® Windows® Operating System                      
+                                                    Company: Microsoft Corporation                                     
+                                                    OriginalFileName: Cmd.Exe                                          
+                                                    CommandLine: C:\Windows\system32\cmd.exe /c "echo 'hello'"         
+                                                    CurrentDirectory: C:\deploy\                                       
+                                                    User: EC2AMAZ-EHG2C8M\Administrator                                
+                                                    LogonGuid: {70d418e8-4991-63df-d2c8-200000000000}                  
+                                                    LogonId: 0x20C8D2                                                  
+                                                    TerminalSessionId: 0                                               
+                                                    IntegrityLevel: High                                               
+                                                    Hashes: MD5=911D039E71583A07320B32BDE22F8E22,SHA256=BC866CFCDDA37E2
+                                                    4DC2634DC282C7A0E6F55209DA17A8FA105B07414C0E7C527,IMPHASH=272245E29
+                                                    88E1E430500B852C4FB5E18                                            
+                                                    ParentProcessGuid: {70d418e8-4992-63df-6b00-000000002a02}          
+                                                    ParentProcessId: 2452                                              
+                                                    ParentImage: C:\Program Files\Amazon\cfn-bootstrap\cfn-init.exe    
+                                                    ParentCommandLine: "C:\Program                                     
+                                                    Files\Amazon\cfn-bootstrap\cfn-init.exe" -v --region us-east-1     
+                                                    --stack TlogGenStack --resource                                    
+                                                    tloggenserverinstanceBA59C69Bcd29b25a6c73bdf8 -c default           
+                                                    ParentUser: EC2AMAZ-EHG2C8M\Administrator                          
+2/5/2023 6:16:38 AM             22 Information      Dns query:                                                         
+                                                    RuleName: -                                                        
+                                                    UtcTime: 2023-02-05 06:16:37.856                                   
+                                                    ProcessGuid: {70d418e8-49c2-63df-8c00-000000002a02}                
+                                                    ProcessId: 3452                                                    
+                                                    QueryName: _ldap._tcp.dc._msdcs.WORKGROUP                          
+                                                    QueryStatus: 9003                                                  
+                                                    QueryResults: -                                                    
+                                                    Image: C:\Windows\System32\SppExtComObj.Exe                        
+                                                    User: NT AUTHORITY\NETWORK SERVICE                                 
+2/5/2023 6:16:37 AM              1 Information      Process Create:                                                    
+                                                    RuleName: -                                                        
+                                                    UtcTime: 2023-02-05 06:16:37.496                                   
+                                                    ProcessGuid: {70d418e8-49c5-63df-8e00-000000002a02}                
+                                                    ProcessId: 3528                                                    
+                                                    Image: C:\Windows\System32\tasklist.exe                            
+                                                    FileVersion: 10.0.17763.1 (WinBuild.160101.0800)                   
+                                                    Description: Lists the current running tasks                       
+                                                    Product: Microsoft® Windows® Operating System                      
+                                                    Company: Microsoft Corporation                                     
+                                                    OriginalFileName: tasklist.exe                                     
+                                                    CommandLine: tasklist                                              
+                                                    CurrentDirectory: C:\deploy\                                       
+                                                    User: EC2AMAZ-EHG2C8M\Administrator                                
+                                                    LogonGuid: {70d418e8-4991-63df-d2c8-200000000000}                  
+                                                    LogonId: 0x20C8D2                                                  
+                                                    TerminalSessionId: 0                                               
+                                                    IntegrityLevel: High                                               
+                                                    Hashes: MD5=B802C79BE392F3BFCC51CDA425BC94D2,SHA256=113C4D989A47B80
+                                                    905E92C06E48E03B24D44CADBF7BC7E86D948D7DA9DC98252,IMPHASH=DCE1F3B1B
+                                                    D09BBAD166CE65677E33EDB                                            
+                                                    ParentProcessGuid: {70d418e8-49bf-63df-8500-000000002a02}          
+                                                    ParentProcessId: 3260                                              
+                                                    ParentImage: C:\Windows\System32\cmd.exe                           
+                                                    ParentCommandLine: cmd.exe  /c ".\tests\tests.bat"                 
+                                                    ParentUser: EC2AMAZ-EHG2C8M\Administrator                          
+2/5/2023 6:16:35 AM              1 Information      Process Create:                                                    
+                                                    RuleName: -                                                        
+                                                    UtcTime: 2023-02-05 06:16:35.409                                   
+                                                    ProcessGuid: {70d418e8-49c3-63df-8d00-000000002a02}                
+                                                    ProcessId: 3476                                                    
+                                                    Image: C:\Windows\System32\slui.exe                                
+                                                    FileVersion: 10.0.17763.2989 (WinBuild.160101.0800)                
+                                                    Description: Windows Activation Client                             
+                                                    Product: Microsoft® Windows® Operating System                      
+                                                    Company: Microsoft Corporation                                     
+                                                    OriginalFileName: slui.exe                                         
+                                                    CommandLine: "C:\Windows\System32\SLUI.exe" RuleId=eeba1977-569e-45
+                                                    71-b639-7623d8bfecc0;Action=AutoActivate;AppId=55c92734-d682-4d71-9
+                                                    83e-d6ec3f16059f;SkuId=34e1ae55-27f8-4950-8877-7a03be5fb181;Notific
+                                                    ationInterval=1440;Trigger=TimerEvent                              
+                                                    CurrentDirectory: C:\Windows\system32\                             
+                                                    User: NT AUTHORITY\NETWORK SERVICE                                 
+                                                    LogonGuid: {70d418e8-493a-63df-e403-000000000000}                  
+                                                    LogonId: 0x3E4                                                     
+                                                    TerminalSessionId: 0                                               
+                                                    IntegrityLevel: System                                             
+                                                    Hashes: MD5=D6EC91F3D4A50ABE0ED2C1DF7E4A9170,SHA256=01A2C7A0DB16656
+                                                    813164DC34F2937E5B3A1A979577C249556A855F9037662BB,IMPHASH=F2014F555
+                                                    5EEFEC494A169DEEBA0FEE5                                            
+                                                    ParentProcessGuid: {70d418e8-49c2-63df-8c00-000000002a02}          
+                                                    ParentProcessId: 3452                                              
+                                                    ParentImage: C:\Windows\System32\SppExtComObj.Exe                  
+                                                    ParentCommandLine: C:\Windows\system32\SppExtComObj.exe -Embedding 
+                                                    ParentUser: NT AUTHORITY\NETWORK SERVICE                           
+2/5/2023 6:16:32 AM              1 Information      Process Create:                                                    
+                                                    RuleName: -                                                        
+                                                    UtcTime: 2023-02-05 06:16:32.050                                   
+                                                    ProcessGuid: {70d418e8-49c0-63df-8a00-000000002a02}                
+                                                    ProcessId: 3320                                                    
+                                                    Image: C:\Windows\System32\systeminfo.exe                          
+                                                    FileVersion: 10.0.17763.1 (WinBuild.160101.0800)                   
+                                                    Description: Displays system information                           
+                                                    Product: Microsoft® Windows® Operating System                      
+                                                    Company: Microsoft Corporation                                     
+                                                    OriginalFileName: sysinfo.exe                                      
+                                                    CommandLine: systeminfo                                            
+                                                    CurrentDirectory: C:\deploy\                                       
+                                                    User: EC2AMAZ-EHG2C8M\Administrator                                
+                                                    LogonGuid: {70d418e8-4991-63df-d2c8-200000000000}                  
+                                                    LogonId: 0x20C8D2                                                  
+                                                    TerminalSessionId: 0                                               
+                                                    IntegrityLevel: High                                               
+                                                    Hashes: MD5=F2D7816271A27223945E8AE24B6F81F7,SHA256=1084ADF2DDBE903
+                                                    BD71A496720B0D6616882F120D1B3FFEAE8D47FEB0D9CC123,IMPHASH=C5985EAB8
+                                                    C1ED292344936A4595C1438                                            
+                                                    ParentProcessGuid: {70d418e8-49bf-63df-8500-000000002a02}          
+                                                    ParentProcessId: 3260                                              
+                                                    ParentImage: C:\Windows\System32\cmd.exe                           
+                                                    ParentCommandLine: cmd.exe  /c ".\tests\tests.bat"                 
+                                                    ParentUser: EC2AMAZ-EHG2C8M\Administrator                          
+2/5/2023 6:16:31 AM              1 Information      Process Create:                                                    
+                                                    RuleName: -                                                        
+                                                    UtcTime: 2023-02-05 06:16:31.972                                   
+                                                    ProcessGuid: {70d418e8-49bf-63df-8900-000000002a02}                
+                                                    ProcessId: 3308                                                    
+                                                    Image: C:\Windows\System32\nltest.exe                              
+                                                    FileVersion: 10.0.17763.3532 (WinBuild.160101.0800)                
+                                                    Description: Microsoft® Logon Server Test Utility                  
+                                                    Product: Microsoft® Windows® Operating System                      
+                                                    Company: Microsoft Corporation                                     
+                                                    OriginalFileName: nltestrk.exe                                     
+                                                    CommandLine: nltest  /DOMAIN_TRUSTS                                
+                                                    CurrentDirectory: C:\deploy\                                       
+                                                    User: EC2AMAZ-EHG2C8M\Administrator                                
+                                                    LogonGuid: {70d418e8-4991-63df-d2c8-200000000000}                  
+                                                    LogonId: 0x20C8D2                                                  
+                                                    TerminalSessionId: 0                                               
+                                                    IntegrityLevel: High                                               
+                                                    Hashes: MD5=1CF153C7952873CCAF875F35313FA06E,SHA256=E928D849A13CC00
+                                                    926F42FACD73EDF70A9D3DBBAF776B0C369775848A1CF0C73,IMPHASH=9EAAE01D9
+                                                    F3D600C10E5E418CA3C8B09                                            
+                                                    ParentProcessGuid: {70d418e8-49bf-63df-8500-000000002a02}          
+                                                    ParentProcessId: 3260                                              
+                                                    ParentImage: C:\Windows\System32\cmd.exe                           
+                                                    ParentCommandLine: cmd.exe  /c ".\tests\tests.bat"                 
+                                                    ParentUser: EC2AMAZ-EHG2C8M\Administrator                          
+2/5/2023 6:16:31 AM              1 Information      Process Create:                                                    
+                                                    RuleName: -                                                        
+                                                    UtcTime: 2023-02-05 06:16:31.843                                   
+                                                    ProcessGuid: {70d418e8-49bf-63df-8800-000000002a02}                
+                                                    ProcessId: 3296                                                    
+                                                    Image: C:\Windows\System32\net1.exe                                
+                                                    FileVersion: 10.0.17763.1 (WinBuild.160101.0800)                   
+                                                    Description: Net Command                                           
+                                                    Product: Microsoft® Windows® Operating System                      
+                                                    Company: Microsoft Corporation                                     
+                                                    OriginalFileName: net1.exe                                         
+                                                    CommandLine: C:\Windows\system32\net1  group /domain               
+                                                    CurrentDirectory: C:\deploy\                                       
+                                                    User: EC2AMAZ-EHG2C8M\Administrator                                
+                                                    LogonGuid: {70d418e8-4991-63df-d2c8-200000000000}                  
+                                                    LogonId: 0x20C8D2                                                  
+                                                    TerminalSessionId: 0                                               
+                                                    IntegrityLevel: High                                               
+                                                    Hashes: MD5=63DD4523677E62A73A8A7494DB321EA2,SHA256=C687157FD58EAA5
+                                                    1757CDA87D06C30953A31F03F5356B9F5A9C004FA4BAD4BF5,IMPHASH=41DBA1AF7
+                                                    7E1A2260F0CE46D59ADCB5E                                            
+                                                    ParentProcessGuid: {70d418e8-49bf-63df-8700-000000002a02}          
+                                                    ParentProcessId: 3284                                              
+                                                    ParentImage: C:\Windows\System32\net.exe                           
+                                                    ParentCommandLine: net  group /domain                              
+                                                    ParentUser: EC2AMAZ-EHG2C8M\Administrator                          
+2/5/2023 6:16:31 AM              1 Information      Process Create:                                                    
+                                                    RuleName: -                                                        
+                                                    UtcTime: 2023-02-05 06:16:31.830                                   
+                                                    ProcessGuid: {70d418e8-49bf-63df-8700-000000002a02}                
+                                                    ProcessId: 3284                                                    
+                                                    Image: C:\Windows\System32\net.exe                                 
+                                                    FileVersion: 10.0.17763.1 (WinBuild.160101.0800)                   
+                                                    Description: Net Command                                           
+                                                    Product: Microsoft® Windows® Operating System                      
+                                                    Company: Microsoft Corporation                                     
+                                                    OriginalFileName: net.exe                                          
+                                                    CommandLine: net  group /domain                                    
+                                                    CurrentDirectory: C:\deploy\                                       
+                                                    User: EC2AMAZ-EHG2C8M\Administrator                                
+                                                    LogonGuid: {70d418e8-4991-63df-d2c8-200000000000}                  
+                                                    LogonId: 0x20C8D2                                                  
+                                                    TerminalSessionId: 0                                               
+                                                    IntegrityLevel: High                                               
+                                                    Hashes: MD5=AE61D8F04BCDE8158304067913160B31,SHA256=25C8266D2BC1D56
+                                                    26DCDF72419838B397D28D44D00AC09F02FF4E421B43EC369,IMPHASH=57F0C47AE
+                                                    2A1A2C06C8B987372AB0B07                                            
+                                                    ParentProcessGuid: {70d418e8-49bf-63df-8500-000000002a02}          
+                                                    ParentProcessId: 3260                                              
+                                                    ParentImage: C:\Windows\System32\cmd.exe                           
+                                                    ParentCommandLine: cmd.exe  /c ".\tests\tests.bat"                 
+                                                    ParentUser: EC2AMAZ-EHG2C8M\Administrator                          
+2/5/2023 6:16:31 AM              1 Information      Process Create:                                                    
+                                                    RuleName: -                                                        
+                                                    UtcTime: 2023-02-05 06:16:31.797                                   
+                                                    ProcessGuid: {70d418e8-49bf-63df-8600-000000002a02}                
+                                                    ProcessId: 3272                                                    
+                                                    Image: C:\Windows\System32\whoami.exe                              
+                                                    FileVersion: 10.0.17763.1 (WinBuild.160101.0800)                   
+                                                    Description: whoami - displays logged on user information          
+                                                    Product: Microsoft® Windows® Operating System                      
+                                                    Company: Microsoft Corporation                                     
+                                                    OriginalFileName: whoami.exe                                       
+                                                    CommandLine: whoami                                                
+                                                    CurrentDirectory: C:\deploy\                                       
+                                                    User: EC2AMAZ-EHG2C8M\Administrator                                
+                                                    LogonGuid: {70d418e8-4991-63df-d2c8-200000000000}                  
+                                                    LogonId: 0x20C8D2                                                  
+                                                    TerminalSessionId: 0                                               
+                                                    IntegrityLevel: High                                               
+                                                    Hashes: MD5=43C2D3293AD939241DF61B3630A9D3B6,SHA256=1D5491E3C468EE4
+                                                    B4EF6EDFF4BBC7D06EE83180F6F0B1576763EA2EFE049493A,IMPHASH=7FF0758B7
+                                                    66F747CE57DFAC70743FB88                                            
+                                                    ParentProcessGuid: {70d418e8-49bf-63df-8500-000000002a02}          
+                                                    ParentProcessId: 3260                                              
+                                                    ParentImage: C:\Windows\System32\cmd.exe                           
+                                                    ParentCommandLine: cmd.exe  /c ".\tests\tests.bat"                 
+                                                    ParentUser: EC2AMAZ-EHG2C8M\Administrator                          
+2/5/2023 6:16:31 AM              1 Information      Process Create:                                                    
+                                                    RuleName: -                                                        
+                                                    UtcTime: 2023-02-05 06:16:31.714                                   
+                                                    ProcessGuid: {70d418e8-49bf-63df-8500-000000002a02}                
+                                                    ProcessId: 3260                                                    
+                                                    Image: C:\Windows\System32\cmd.exe                                 
+                                                    FileVersion: 10.0.17763.1697 (WinBuild.160101.0800)                
+                                                    Description: Windows Command Processor                             
+                                                    Product: Microsoft® Windows® Operating System                      
+                                                    Company: Microsoft Corporation                                     
+                                                    OriginalFileName: Cmd.Exe                                          
+                                                    CommandLine: cmd.exe  /c ".\tests\tests.bat"                       
+                                                    CurrentDirectory: C:\deploy\                                       
+                                                    User: EC2AMAZ-EHG2C8M\Administrator                                
+                                                    LogonGuid: {70d418e8-4991-63df-d2c8-200000000000}                  
+                                                    LogonId: 0x20C8D2                                                  
+                                                    TerminalSessionId: 0                                               
+                                                    IntegrityLevel: High                                               
+                                                    Hashes: MD5=911D039E71583A07320B32BDE22F8E22,SHA256=BC866CFCDDA37E2
+                                                    4DC2634DC282C7A0E6F55209DA17A8FA105B07414C0E7C527,IMPHASH=272245E29
+                                                    88E1E430500B852C4FB5E18                                            
+                                                    ParentProcessGuid: {70d418e8-49bf-63df-8400-000000002a02}          
+                                                    ParentProcessId: 3248                                              
+                                                    ParentImage: C:\Windows\System32\cmd.exe                           
+                                                    ParentCommandLine: C:\Windows\system32\cmd.exe /c "cmd.exe /c      
+                                                    ".\tests\tests.bat""                                               
+                                                    ParentUser: EC2AMAZ-EHG2C8M\Administrator                          
+2/5/2023 6:16:31 AM              1 Information      Process Create:                                                    
+                                                    RuleName: -                                                        
+                                                    UtcTime: 2023-02-05 06:16:31.699                                   
+                                                    ProcessGuid: {70d418e8-49bf-63df-8400-000000002a02}                
+                                                    ProcessId: 3248                                                    
+                                                    Image: C:\Windows\System32\cmd.exe                                 
+                                                    FileVersion: 10.0.17763.1697 (WinBuild.160101.0800)                
+                                                    Description: Windows Command Processor                             
+                                                    Product: Microsoft® Windows® Operating System                      
+                                                    Company: Microsoft Corporation                                     
+                                                    OriginalFileName: Cmd.Exe                                          
+                                                    CommandLine: C:\Windows\system32\cmd.exe /c "cmd.exe /c            
+                                                    ".\tests\tests.bat""                                               
+                                                    CurrentDirectory: C:\deploy\                                       
+                                                    User: EC2AMAZ-EHG2C8M\Administrator                                
+                                                    LogonGuid: {70d418e8-4991-63df-d2c8-200000000000}                  
+                                                    LogonId: 0x20C8D2                                                  
+                                                    TerminalSessionId: 0                                               
+                                                    IntegrityLevel: High                                               
+                                                    Hashes: MD5=911D039E71583A07320B32BDE22F8E22,SHA256=BC866CFCDDA37E2
+                                                    4DC2634DC282C7A0E6F55209DA17A8FA105B07414C0E7C527,IMPHASH=272245E29
+                                                    88E1E430500B852C4FB5E18                                            
+                                                    ParentProcessGuid: {70d418e8-4992-63df-6b00-000000002a02}          
+                                                    ParentProcessId: 2452                                              
+                                                    ParentImage: C:\Program Files\Amazon\cfn-bootstrap\cfn-init.exe    
+                                                    ParentCommandLine: "C:\Program                                     
+                                                    Files\Amazon\cfn-bootstrap\cfn-init.exe" -v --region us-east-1     
+                                                    --stack TlogGenStack --resource                                    
+                                                    tloggenserverinstanceBA59C69Bcd29b25a6c73bdf8 -c default           
+                                                    ParentUser: EC2AMAZ-EHG2C8M\Administrator                          
+2/5/2023 6:16:31 AM              1 Information      Process Create:                                                    
+                                                    RuleName: -                                                        
+                                                    UtcTime: 2023-02-05 06:16:31.671                                   
+                                                    ProcessGuid: {70d418e8-49bf-63df-8300-000000002a02}                
+                                                    ProcessId: 3228                                                    
+                                                    Image: C:\Windows\System32\cmd.exe                                 
+                                                    FileVersion: 10.0.17763.1697 (WinBuild.160101.0800)                
+                                                    Description: Windows Command Processor                             
+                                                    Product: Microsoft® Windows® Operating System                      
+                                                    Company: Microsoft Corporation                                     
+                                                    OriginalFileName: Cmd.Exe                                          
+                                                    CommandLine: C:\Windows\system32\cmd.exe /c "echo 'hello'"         
+                                                    CurrentDirectory: C:\deploy\                                       
+                                                    User: EC2AMAZ-EHG2C8M\Administrator                                
+                                                    LogonGuid: {70d418e8-4991-63df-d2c8-200000000000}                  
+                                                    LogonId: 0x20C8D2                                                  
+                                                    TerminalSessionId: 0                                               
+                                                    IntegrityLevel: High                                               
+                                                    Hashes: MD5=911D039E71583A07320B32BDE22F8E22,SHA256=BC866CFCDDA37E2
+                                                    4DC2634DC282C7A0E6F55209DA17A8FA105B07414C0E7C527,IMPHASH=272245E29
+                                                    88E1E430500B852C4FB5E18                                            
+                                                    ParentProcessGuid: {70d418e8-4992-63df-6b00-000000002a02}          
+                                                    ParentProcessId: 2452                                              
+                                                    ParentImage: C:\Program Files\Amazon\cfn-bootstrap\cfn-init.exe    
+                                                    ParentCommandLine: "C:\Program                                     
+                                                    Files\Amazon\cfn-bootstrap\cfn-init.exe" -v --region us-east-1     
+                                                    --stack TlogGenStack --resource                                    
+                                                    tloggenserverinstanceBA59C69Bcd29b25a6c73bdf8 -c default           
+                                                    ParentUser: EC2AMAZ-EHG2C8M\Administrator                          
+2/5/2023 6:16:29 AM              1 Information      Process Create:                                                    
+                                                    RuleName: -                                                        
+                                                    UtcTime: 2023-02-05 06:16:29.163                                   
+                                                    ProcessGuid: {70d418e8-49bd-63df-8200-000000002a02}                
+                                                    ProcessId: 3156                                                    
+                                                    Image: C:\Windows\System32\auditpol.exe                            
+                                                    FileVersion: 10.0.17763.1 (WinBuild.160101.0800)                   
+                                                    Description: Audit Policy Program                                  
+                                                    Product: Microsoft® Windows® Operating System                      
+                                                    Company: Microsoft Corporation                                     
+                                                    OriginalFileName: AUDITPOL.EXE                                     
+                                                    CommandLine: "C:\Windows\system32\auditpol.exe" /set               
+                                                    /subcategory:Logon /success:Enable /failure:Enable                 
+                                                    CurrentDirectory: C:\Sysmon\Sysmon\                                
+                                                    User: EC2AMAZ-EHG2C8M\Administrator                                
+                                                    LogonGuid: {70d418e8-4991-63df-d2c8-200000000000}                  
+                                                    LogonId: 0x20C8D2                                                  
+                                                    TerminalSessionId: 0                                               
+                                                    IntegrityLevel: High                                               
+                                                    Hashes: MD5=F97C0041886519CEAE336B06AEBFC9E1,SHA256=969306E33A46909
+                                                    6EFA20BEE264FB37AC4DA86899F2659007D6BE0D1EB666B1C,IMPHASH=D401223A6
+                                                    3DBFDCD11C945B9EEE0BD7E                                            
+                                                    ParentProcessGuid: {70d418e8-49b5-63df-7600-000000002a02}          
+                                                    ParentProcessId: 1344                                              
+                                                    ParentImage:                                                       
+                                                    C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe          
+                                                    ParentCommandLine: powershell.exe  -File ".\scripts\Setup.ps1"     
+                                                    ParentUser: EC2AMAZ-EHG2C8M\Administrator                          
+2/5/2023 6:16:28 AM              1 Information      Process Create:                                                    
+                                                    RuleName: -                                                        
+                                                    UtcTime: 2023-02-05 06:16:28.978                                   
+                                                    ProcessGuid: {70d418e8-49bc-63df-8100-000000002a02}                
+                                                    ProcessId: 3144                                                    
+                                                    Image: C:\Windows\System32\auditpol.exe                            
+                                                    FileVersion: 10.0.17763.1 (WinBuild.160101.0800)                   
+                                                    Description: Audit Policy Program                                  
+                                                    Product: Microsoft® Windows® Operating System                      
+                                                    Company: Microsoft Corporation                                     
+                                                    OriginalFileName: AUDITPOL.EXE                                     
+                                                    CommandLine: "C:\Windows\system32\auditpol.exe" /set               
+                                                    "/subcategory:Process Creation" /success:Enable                    
+                                                    CurrentDirectory: C:\Sysmon\Sysmon\                                
+                                                    User: EC2AMAZ-EHG2C8M\Administrator                                
+                                                    LogonGuid: {70d418e8-4991-63df-d2c8-200000000000}                  
+                                                    LogonId: 0x20C8D2                                                  
+                                                    TerminalSessionId: 0                                               
+                                                    IntegrityLevel: High                                               
+                                                    Hashes: MD5=F97C0041886519CEAE336B06AEBFC9E1,SHA256=969306E33A46909
+                                                    6EFA20BEE264FB37AC4DA86899F2659007D6BE0D1EB666B1C,IMPHASH=D401223A6
+                                                    3DBFDCD11C945B9EEE0BD7E                                            
+                                                    ParentProcessGuid: {70d418e8-49b5-63df-7600-000000002a02}          
+                                                    ParentProcessId: 1344                                              
+                                                    ParentImage:                                                       
+                                                    C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe          
+                                                    ParentCommandLine: powershell.exe  -File ".\scripts\Setup.ps1"     
+                                                    ParentUser: EC2AMAZ-EHG2C8M\Administrator                          
+2/5/2023 6:16:27 AM              1 Information      Process Create:                                                    
+                                                    RuleName: -                                                        
+                                                    UtcTime: 2023-02-05 06:16:27.912                                   
+                                                    ProcessGuid: {70d418e8-49bb-63df-7f00-000000002a02}                
+                                                    ProcessId: 2148                                                    
+                                                    Image: C:\Windows\System32\wbem\unsecapp.exe                       
+                                                    FileVersion: 10.0.17763.1 (WinBuild.160101.0800)                   
+                                                    Description: Sink to receive asynchronous callbacks for WMI client 
+                                                    application                                                        
+                                                    Product: Microsoft® Windows® Operating System                      
+                                                    Company: Microsoft Corporation                                     
+                                                    OriginalFileName: unsecapp.dll                                     
+                                                    CommandLine: C:\Windows\system32\wbem\unsecapp.exe -Embedding      
+                                                    CurrentDirectory: C:\Windows\system32\                             
+                                                    User: NT AUTHORITY\SYSTEM                                          
+                                                    LogonGuid: {70d418e8-4939-63df-e703-000000000000}                  
+                                                    LogonId: 0x3E7                                                     
+                                                    TerminalSessionId: 0                                               
+                                                    IntegrityLevel: System                                             
+                                                    Hashes: MD5=8B0E699F01BDD3B9AD741D1BD7343248,SHA256=8095D4D7726438F
+                                                    8665E00C1A405AB94DB6358DC14740783795CF8617A64F19E,IMPHASH=9E0E0DA3F
+                                                    F0E183298AEDC6F7ECB7E05                                            
+                                                    ParentProcessGuid: {70d418e8-493a-63df-0d00-000000002a02}          
+                                                    ParentProcessId: 868                                               
+                                                    ParentImage: C:\Windows\System32\svchost.exe                       
+                                                    ParentCommandLine: C:\Windows\system32\svchost.exe -k DcomLaunch -p
+                                                    ParentUser: NT AUTHORITY\SYSTEM                                    
+2/5/2023 6:16:27 AM              1 Information      Process Create:                                                    
+                                                    RuleName: -                                                        
+                                                    UtcTime: 2023-02-05 06:16:27.751                                   
+                                                    ProcessGuid: {70d418e8-49bb-63df-7e00-000000002a02}                
+                                                    ProcessId: 1060                                                    
+                                                    Image: C:\Windows\Sysmon64.exe                                     
+                                                    FileVersion: 14.14                                                 
+                                                    Description: System activity monitor                               
+                                                    Product: Sysinternals Sysmon                                       
+                                                    Company: Sysinternals - www.sysinternals.com                       
+                                                    OriginalFileName: -                                                
+                                                    CommandLine: C:\Windows\Sysmon64.exe                               
+                                                    CurrentDirectory: C:\Windows\system32\                             
+                                                    User: NT AUTHORITY\SYSTEM                                          
+                                                    LogonGuid: {70d418e8-4939-63df-e703-000000000000}                  
+                                                    LogonId: 0x3E7                                                     
+                                                    TerminalSessionId: 0                                               
+                                                    IntegrityLevel: System                                             
+                                                    Hashes: MD5=B0084FADD62D9B232B8E0E01CE076743,SHA256=7108EC59A69D858
+                                                    BFB3F6034C4812C2D7EC348ECC952FD30C65A913C17F68E35,IMPHASH=98203EA00
+                                                    48BA4CC6C49D812B34C8BE5                                            
+                                                    ParentProcessGuid: {70d418e8-4938-63df-0b00-000000002a02}          
+                                                    ParentProcessId: 756                                               
+                                                    ParentImage: C:\Windows\System32\services.exe                      
+                                                    ParentCommandLine: C:\Windows\system32\services.exe                
+                                                    ParentUser: NT AUTHORITY\SYSTEM                                    
+2/5/2023 6:16:27 AM              4 Information      Sysmon service state changed:                                      
+                                                    UtcTime: 2023-02-05 06:16:27.959                                   
+                                                    State: Started                                                     
+                                                    Version: 14.14                                                     
+                                                    SchemaVersion: 4.83                                                
+2/5/2023 6:16:27 AM             16 Information      Sysmon config state changed:                                       
+                                                    UtcTime: 2023-02-05 06:16:27.693                                   
+                                                    Configuration: C:\Sysmon\Sysmon\sysmonconfig-export.xml            
+                                                    ConfigurationFileHash: SHA256=055FEBC600E6D7448CDF3812307275912927A
+                                                    62B1F94D0D933B64B294BC87162                                        
+
+
+
